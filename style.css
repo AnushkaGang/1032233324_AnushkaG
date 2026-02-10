@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    background-color: #e6f0ff;
+    padding: 30px;
+}
+
+.container {
+    background-color: white;
+    padding: 25px;
+    width: 380px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

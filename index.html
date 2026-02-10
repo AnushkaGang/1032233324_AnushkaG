@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Student Registration Form</h2>
+
+        <form onsubmit="return validateForm()">
+
+            <label>Name</label>
+            <input type="text" id="name">
+            <span class="error" id="nameError"></span>
+
+            <label>Email</label>
+            <input type="text" id="email">
+            <span class="error" id="emailError"></span>
+
+            <label>Roll Number</label>
+            <input type="text" id="roll">
+            <span class="error" id="rollError"></span>
+
+            <label>Age</label>
+            <input type="number" id="age">
+            <span class="error" id="ageError"></span>
+
+            <label>Phone Number</label>
+            <input type="text" id="phone">
+            <span class="error" id="phoneError"></span>
+
+            <label>Password</label>
+            <input type="password" id="password">
+            <span class="error" id="passwordError"></span>
+
+            <label>Gender</label>
+            <select id="gender">
+                <option value="">Select Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+            <span class="error" id="genderError"></span>
+
+            <label>Department</label>
+            <input type="text" id="dept">
+            <span class="error" id="deptError"></span>
+
+            <label>Year of Study</label>
+            <select id="year">
+                <option value="">Select Year</option>
+                <option>First Year</option>
+                <option>Second Year</option>
+                <option>Third Year</option>
+                <option>Final Year</option>
+            </select>
+            <span class="error" id="yearError"></span>
+
+            <label>College Name</label>
+            <input type="text" id="college">
+            <span class="error" id="collegeError"></span>
+
+            <label>City</label>
+            <input type="text" id="city">
+            <span class="error" id="cityError"></span>
+
+            <label>
+                <input type="checkbox" id="terms"> I agree to the terms and conditions
+            </label>
+            <span class="error" id="termsError"></span>
+
+            <input type="submit" value="Register">
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
